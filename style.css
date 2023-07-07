@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ededed;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F4CE14;
+}
+
+h2 {
+    color: #F4CE14;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+header > img {
+    width: 300px;
+    display: block;
+    margin: 40px auto;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #495E57;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+nav li {
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li a {
+    text-decoration:none ;
+    color: #F4CE14;
+    font-size: 1.8rem;
+}
+li a:hover{
+    color:white;
+}
+
+
+
+.heading1 {
+    display: flex;
+    background-image: url("https://little-lemon-restaurant-sumit-sharma-02.vercel.app/static/media/greek-salad.0630522a827a5188a66d.webp");
+    background-size: cover;
+    color: white;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.heading1 article {
+    padding-left: 20px;
+    margin:0 auto;
+}
+
+
+.heading1 p {
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.heading2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.heading2 article {
+    margin: 10px;
+    width: 31%;
+    background-color: #495E57;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 25px;
+    color: white;
+}
+.heading2 p{
+    
+    font-size: 1.5rem;
+}
+
+.heading2 button {
+    font-size: 1.2rem;
+    border: #ededed 4px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+button:hover{
+    background-color: #F4CE14;
+    color: white;
+    border-color: #F4CE14;
+}
+
+
+
+
+footer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div {
+    font-size: 1.5rem;
+}
+div > img {
+    width: 100px;
+}
+
+
+@media (max-width: 991.98px) {
+    .heading2 {
+        flex-direction: column;
+    }
+    .heading2 article {
+        width: 90%;
+    }
+}
